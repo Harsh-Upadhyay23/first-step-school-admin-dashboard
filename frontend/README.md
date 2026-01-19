@@ -17,13 +17,13 @@ If you are developing a production application, we recommend using TypeScript an
 Below are some demo screenshots of the application:
 
 ### 📸 Screen 1
-![Demo Screen 1](./public/image1.jpg)
+![Demo Screen 1](./public/image1.png)
 
 ### 📸 Screen 2
-![Demo Screen 2](./public/image2.jpg)
+![Demo Screen 2](./public/image2.png)
 
 ### 📸 Screen 3
-![Demo Screen 3](./public/image3.jpg)
+![Demo Screen 3](./public/image3.png)
 
 Backend for **FirstStep Pre-School Admin Panel**, built using **Node.js, Express, MongoDB**.
 
