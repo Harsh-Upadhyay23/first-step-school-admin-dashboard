@@ -8,18 +8,13 @@ exports.loginAdmin = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // =========================
-    // BASIC VALIDATION
-    // =========================
     if (!email || !password) {
       return res.status(400).json({
         message: "Email and password are required"
       });
     }
 
-    // =========================
-    // FIXED ADMIN CREDENTIALS
-    // =========================
+  
     const ADMIN_EMAIL = "admin@firststep.com";
     const ADMIN_PASSWORD = "firststep@1234";
 
@@ -32,9 +27,7 @@ exports.loginAdmin = async (req, res) => {
       });
     }
 
-    // =========================
-    // GENERATE JWT TOKEN
-    // =========================
+  
     const token = jwt.sign(
       {
         role: "admin",
